@@ -13,7 +13,7 @@ gem 'rack-timeout',                 '~> 0.3.2'
 gem 'redcarpet',                    '~> 3.3.4'                        # to render the curriculum's .md files as html
 gem 'will_paginate',                '~> 3.1.0'                        # to paginate student lists
 gem 'pg',                           '~> 0.18.4'
-gem 'nokogiri',                     '~> 1.6.7.2'
+gem 'nokogiri',                     '>= 1.6.8'
 gem 'premailer-rails',              '~> 1.9'
 gem 'github_api',                   '~> 0.13.1'                       # to pull in the curriculum files
 gem 'octokit',                      '~> 4.0'
@@ -21,7 +21,7 @@ gem 'omniauth-github',              '~> 1.1.2'                        #for Githu
 gem 'font-awesome-rails',           '~> 4.5.0.1'
 gem 'sass-rails',                   '~> 5.0.4'
 gem 'coffee-rails',                 '~> 4.1.1'
-gem 'twitter-bootstrap-rails',      '~> 2.2.8'
+gem 'twitter-bootstrap-rails',      '>= 3.2.0'
 gem 'therubyracer',                 '~> 0.12.2'                       # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'less-rails',                   '~> 2.7.1'
 gem 'uglifier',                     '>= 2.7.2'
